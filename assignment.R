@@ -105,6 +105,7 @@ server<- function(input, output) {
     }
   })
   
+  # datasetInput and output$table is not complete
   datasetInput <- reactive({
     #df <- as.data.frame(new_df)
     
